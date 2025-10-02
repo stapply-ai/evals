@@ -6,6 +6,7 @@ A minimal, type-safe Express server in TypeScript for Stapply evals.
 
 - [ ] Auth (no verification email)
 - [ ] Auth (with verification email)
+- [ ] Auth (with provided credentials)
 - [ ] Resume and cover letter upload
 - [ ] Questions / not provided data
 - [ ] Linkedin easy apply
@@ -14,6 +15,7 @@ A minimal, type-safe Express server in TypeScript for Stapply evals.
 - [ ] iFrame (ashby)
 - [ ] Glassdoor
 - [ ] Workday
+- [ ] Work at a startup
 
 ## Prerequisites
 
