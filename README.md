@@ -1,8 +1,21 @@
-## Stapply Evals - File Upload Server
+# Stapply Evals
 
-A minimal, type-safe Express server in TypeScript for Stapply evals. It exposes a single page at `/eval/file-upload` to upload a file, which is saved locally under the `uploads/` directory for debugging purposes.
+A minimal, type-safe Express server in TypeScript for Stapply evals.
 
-### Prerequisites
+## Roadmap
+
+- [ ] Auth (no verification email)
+- [ ] Auth (with verification email)
+- [ ] Resume and cover letter upload
+- [ ] Questions / not provided data
+- [ ] Linkedin easy apply
+- [ ] Lever
+- [ ] Ashby
+- [ ] iFrame (ashby)
+- [ ] Glassdoor
+- [ ] Workday
+
+## Prerequisites
 
 - Node.js 18+
 
@@ -20,7 +33,7 @@ Run with ts-node:
 npm run dev
 ```
 
-Open `http://localhost:3000/eval/file-upload`.
+Open `http://localhost:5173/eval/file-upload`, or any other eval.
 
 ### Build and Run
 
@@ -34,6 +47,7 @@ npm start
 - `GET /eval/file-upload`: Simple HTML form for uploading a file
 - `POST /eval/file-upload`: Accepts multipart form data (field name: `file`) and stores files to `uploads/`
 - `GET /healthz`: Basic health check
+
 
 ### Notes
 
