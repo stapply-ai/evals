@@ -7,4 +7,12 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 .env
+.venv/
+
+# Python
+python/.venv/
+python/.uv/
+python/.pytest_cache/
+python/__pycache__/
+python/*.egg-info/
 
