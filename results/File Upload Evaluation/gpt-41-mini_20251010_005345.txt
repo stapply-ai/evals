@@ -1,0 +1,36 @@
+EVALUATION RESULT
+================
+
+Evaluation Name: File Upload Evaluation
+Model: gpt-4.1-mini
+Date: 2025-10-10
+Time: 00:53:45
+Input Tokens: 16,725
+Output Tokens: 16,725
+Total Tokens: 33,450
+Execution Time: 25.58 seconds
+
+ADDITIONAL DATA
+===============
+task_description: Browser automation for file upload using Playwright + Browser-Use
+result_status: completed
+result_summary: AgentHistoryList(all_results=[ActionResult(is_done=False, success=None, error=None, attachments=None, long_term_memory='Navigated to http://localhost:5173/eval/file-upload', extracted_content='🔗 Navigated to http://localhost:5173/eval/file-upload', include_extracted_content_only_once=False, metadata=None, include_in_memory=False), ActionResult(is_done=False, success=None, error=None, attachments=None, long_term_memory=None, extracted_content='File(s) uploaded successfully using Playwright: resume.pdf', include_extracted_content_only_once=False, metadata=None, include_in_memory=False), ActionResult(is_done=False, success=None, error=None, attachments=None, long_term_memory=None, extracted_content='Clicked element', include_extracted_content_only_once=False, metadata={'click_x': 600.0, 'click_y': 176.1484375, 'new_tab_opened': False}, include_in_memory=False), ActionResult(is_done=True, success=True, error=None, attachments=[], long_term_memory='Task completed: True - The job application page was accessed successfully at http://localhost:5173/eval/file-upload. The re - 258 more characters', extracted_content="The job application page was accessed successfully at http://localhost:5173/eval/file-upload. The resume.pdf file was uploaded successfully. The page displayed a confirmation with filename '2025-10-09T22-53-40-007Z-resume.pdf', its path 'uploads/2025-10-09T22-53-40-007Z-resume.pdf', and size 176837 bytes. There was no disclaimer or additional steps needed.", include_extracted_content_only_once=False, metadata=None, include_in_memory=False)], all_model_outputs=[{'navigate': {'url': 'http://localhost:5173/eval/file-upload', 'new_tab': False}, 'interacted_element': None}, {'playwright_file_upload': {'file_path': './resume.pdf', 'selector': 'input[type=file]'}, 'interacted_element': None}, {'click': {'index': 2, 'ctrl': False}, 'interacted_element': DOMInteractedElement(node_id=27, backend_node_id=31, frame_id=None, node_type=<NodeType.ELEMENT_NODE: 1>, node_value='', node_name='BUTTON', attributes={'type': 'submit'}, bounds=DOMRect(x=257.0, y=160.3984375, width=686.0, height=31.5), x_path='html/body/form/button', element_hash=1898206366193844488)}, {'done': {'text': "The job application page was accessed successfully at http://localhost:5173/eval/file-upload. The resume.pdf file was uploaded successfully. The page displayed a confirmation with filename '2025-10-09T22-53-40-007Z-resume.pdf', its path 'uploads/2025-10-09T22-53-40-007Z-resume.pdf', and size 176837 bytes. There was no disclaimer or additional steps needed.", 'success': True}, 'interacted_element': None}])
+browser_session_url: None
+target_url: http://localhost:5173/eval/file-upload
+total_prompt_tokens: 16057
+total_prompt_cost: 0.0025059999999999995
+total_prompt_cached_tokens: 13056
+total_prompt_cached_cost: 0.0013056
+total_completion_tokens: 668
+total_completion_cost: 0.0010688
+total_tokens: 16725
+total_cost: 0.0048804
+by_model:
+  gpt-4.1-mini: {'model': 'gpt-4.1-mini', 'prompt_tokens': 16057, 'completion_tokens': 668, 'total_tokens': 16725, 'cost': 0.0035747999999999995, 'invocations': 3, 'average_tokens_per_invocation': 5575.0}
+
+SUMMARY
+=======
+Evaluation: File Upload Evaluation
+Model: gpt-4.1-mini
+Completed: 2025-10-10 00:53:45
+Performance: 33,450 total tokens in 25.58 seconds

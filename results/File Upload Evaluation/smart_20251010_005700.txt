@@ -1,0 +1,36 @@
+EVALUATION RESULT
+================
+
+Evaluation Name: File Upload Evaluation
+Model: smart
+Date: 2025-10-10
+Time: 00:57:00
+Input Tokens: 9,073
+Output Tokens: 9,073
+Total Tokens: 18,146
+Execution Time: 22.98 seconds
+
+ADDITIONAL DATA
+===============
+task_description: Browser automation for file upload using Playwright + Browser-Use
+result_status: completed
+result_summary: AgentHistoryList(all_results=[ActionResult(is_done=False, success=None, error=None, attachments=None, long_term_memory='Navigated to http://localhost:5173/eval/file-upload', extracted_content='🔗 Navigated to http://localhost:5173/eval/file-upload', include_extracted_content_only_once=False, metadata=None, include_in_memory=False), ActionResult(is_done=False, success=None, error=None, attachments=None, long_term_memory=None, extracted_content='File(s) uploaded successfully using Playwright: resume.pdf', include_extracted_content_only_once=False, metadata=None, include_in_memory=False), ActionResult(is_done=False, success=None, error=None, attachments=None, long_term_memory=None, extracted_content='Clicked element', include_extracted_content_only_once=False, metadata={'click_x': 600.0, 'click_y': 176.1484375, 'new_tab_opened': False}, include_in_memory=False), ActionResult(is_done=True, success=True, error=None, attachments=[], long_term_memory="Task completed: True - Successfully navigated to the job application page and uploaded the file './resume.pdf'. The server  - 49 more characters", extracted_content="Successfully navigated to the job application page and uploaded the file './resume.pdf'. The server returned a success message confirming the upload.", include_extracted_content_only_once=False, metadata=None, include_in_memory=False)], all_model_outputs=[{'navigate': {'url': 'http://localhost:5173/eval/file-upload', 'new_tab': False}, 'interacted_element': None}, {'playwright_file_upload': {'file_path': './resume.pdf', 'selector': 'input[type=\\"file\\"][name=\\"file\\"]'}, 'interacted_element': None}, {'click': {'index': 2}, 'interacted_element': DOMInteractedElement(node_id=56, backend_node_id=31, frame_id=None, node_type=<NodeType.ELEMENT_NODE: 1>, node_value='', node_name='BUTTON', attributes={'type': 'submit'}, bounds=DOMRect(x=257.0, y=160.3984375, width=686.0, height=31.5), x_path='html/body/form/button', element_hash=1898206366193844488)}, {'done': {'text': "Successfully navigated to the job application page and uploaded the file './resume.pdf'. The server returned a success message confirming the upload.", 'success': True, 'files_to_display': []}, 'interacted_element': None}])
+browser_session_url: None
+target_url: http://localhost:5173/eval/file-upload
+total_prompt_tokens: 8320
+total_prompt_cost: 0.0
+total_prompt_cached_tokens: 0
+total_prompt_cached_cost: 0.0
+total_completion_tokens: 753
+total_completion_cost: 0.0
+total_tokens: 9073
+total_cost: 0.0
+by_model:
+  smart: {'model': 'smart', 'prompt_tokens': 8320, 'completion_tokens': 753, 'total_tokens': 9073, 'cost': 0.0, 'invocations': 4, 'average_tokens_per_invocation': 2268.25}
+
+SUMMARY
+=======
+Evaluation: File Upload Evaluation
+Model: smart
+Completed: 2025-10-10 00:57:00
+Performance: 18,146 total tokens in 22.98 seconds
